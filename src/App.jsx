@@ -13,7 +13,7 @@ import { levels } from "./levels";
 const App = (props) => {
   const correctAudio = new Audio(correctSound);
 
-  const [currentLevel, setCurrentLevel] = useState(20);
+  const [currentLevel, setCurrentLevel] = useState(0);
   const [level, setLevel] = useState({});
   const [position, setPosition] = useState();
   const [correctAnswer, setCorrectAnswer] = useState();
